@@ -1,0 +1,19 @@
+body,
+html {
+  overflow: hidden;
+}
+
+canvas {
+  background-color: #333;
+  border: 1px solid #000;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+div {
+  display: none;
+}

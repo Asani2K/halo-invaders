@@ -1,0 +1,12 @@
+html, body {
+    overflow: hidden;
+}
+
+#mainDiv {
+  width: 100%;
+  height: 100%;
+}
+
+#mainCanvas {
+  border:3px solid red;
+}

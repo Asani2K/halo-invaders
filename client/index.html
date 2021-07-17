@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+  <head>
+    <title>Halo Defenders</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <iframe src="./audio/silence.mp3" allow="autoplay" id="audioFrame" style="display: none"></iframe>
+    <audio id="audio" autoplay loop>
+      <source id="audioSource" src="./audio/halo-drill.mp3" type="audio/mp3">
+    </audio>
+    
+    <div id="mainDiv">
+      <canvas id="mainCanvas"></canvas>
+    </div>
+
+    <!-- import files -->
+    <script src="./config.js"></script>
+    <script src="./game.js"></script>
+
+    <!-- import files -->
+    <script src="./helpers/generalHelper.js"></script>
+    <script src="./helpers/updateHelper.js"></script>
+    <script src="./helpers/drawingHelper.js"></script>
+    <script src="./helpers/inputHelper.js"></script>
+    <script src="./helpers/intervalHelper.js"></script>
+    <script src="./helpers/audioHelper.js"></script>
+
+    <!-- import class files -->
+    <script src="./classes/bullet.js"></script>
+    <script src="./classes/invader.js"></script>
+    <script src="./classes/player.js"></script>
+    <script src="./classes/ammoPack.js"></script>
+    <script src="./classes/healthPack.js"></script>
+    <script src="./classes/healthBar.js"></script>
+    <script src="./classes/portal.js"></script>
+    <script src="./classes/halo.js"></script>
+
+    <script type="text/javascript">
+      init();
+    </script>
+  </body>
+</html>
